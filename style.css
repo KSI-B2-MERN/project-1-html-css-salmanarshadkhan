@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400;1,500&display=swap');
+
+body {
+    margin: 0;	
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+.navbar {
+    background: rgb(126, 21, 21);
+    height: 70px;
+}
+
+.navlist-right a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navlist-right {
+    float: right;
+}
+
+/* hover effect of navlist anchor element */
+.navlist-right a:hover {
+    background-color: #371894;
+    color: rgb(235, 223, 223);
+}
+
+.head {
+    height: 90vh;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.text{
+    text-align: center;
+    align-items: center;
+    padding: 15rem  2rem;
+    font-weight: 400;
+    font-size: xx-large
+}
+.text h1{
+    color: whitesmoke;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.text p{
+    color: rgb(134, 16, 16);
+    font-family: 'Open Sans', sans-serif;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none; 
+    border-radius: 6px;
+    margin: 4px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 40vh;
+  }
+  .fa-facebook p{
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 40vh;
+  }
+  .fa-twitter p{
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .fa-github {
+    background: rgb(20, 16, 16);
+    color: white;
+    width: 40vh;
+  }
+  .fa-github p{
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .fa-google {
+    background: rgb(202, 35, 35);
+    color: white;
+    width: 40vh;
+  }
+  .fa-google p{
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .fa-phone {
+    background: rgb(47, 211, 47);
+    color: white;
+    width: 40vh;
+  }
+  .fa-phone p{
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .line{
+    height: 4px;
+    background-color: red;
+  }
+
